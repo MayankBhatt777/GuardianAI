@@ -1,14 +1,124 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello world project</title>
-  </head>
 
-  <body>
-    <div id="root"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GuardianApp - Smart Digital Parenting</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
 
-    <script type="module" src="/client/main.tsx"></script>
-  </body>
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 2em;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .cta-button {
+      background: #3b82f6;
+      color: white;
+      padding: 0.75em 1.5em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 1em;
+      font-size: 1em;
+    }
+
+    .section {
+      padding: 2em;
+      text-align: center;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2em;
+    }
+
+    .feature {
+      background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+      border-radius: 10px;
+      padding: 1.5em;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      transition: transform 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .contact {
+      padding: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>GuardianApp</h1>
+    <p>Smart Digital Parenting Dashboard</p>
+    <button class="cta-button">Download the App</button>
+  </header>
+
+  <section class="section">
+    <h2>Keep Your Child Safe Online</h2>
+    <p>GuardianApp helps parents monitor screen time, detect risky content, and get real-time guidance without invading
+      their child's privacy.</p>
+  </section>
+
+  <section class="section">
+    <h2>Key Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Screen Time Tracker</h3>
+        <p>Monitor and manage how long your child is on their device daily.</p>
+      </div>
+      <div class="feature">
+        <h3>Risky Content Alerts</h3>
+        <p>Get notified if your child accesses potentially harmful or inappropriate content.</p>
+      </div>
+      <div class="feature">
+        <h3>AI-Based Emotional Scanner</h3>
+        <p>Receive insights into your child's digital behavior and emotional tone.</p>
+      </div>
+      <div class="feature">
+        <h3>Privacy Friendly</h3>
+        <p>No spying, just smart protection and support.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@guardianapp.in</p>
+    <p>Phone: +91-98765-43210</p>
+    <button class="cta-button">Request a Demo</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GuardianApp. All rights reserved.</p>
+  </footer>
+</body>
+
 </html>
